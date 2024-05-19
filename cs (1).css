@@ -1,0 +1,355 @@
+html {
+    scroll-behavior: smooth;
+}   
+body{
+    margin: 0;
+}
+h1{
+    font-size: 80px;
+    color:#000000;
+}
+.korobka{
+    color: white;
+    padding: 0 100px;
+    text-align: center;
+    height: 600px;
+    width: 40%;
+    margin: 0 15px 0 15px;
+
+}
+.korobkatext{
+    color: #301b28;
+    padding: 0 100px;
+    text-align: center;
+    height:400px;
+    width:20%;
+    margin: 0 10px 0 10px;
+}
+.h1center{
+    align-items: center;
+    height: 70 px;
+
+}
+.h2center{
+    align-items: center;
+}
+.w2center{
+    justify-content: center;
+}
+.w1center{
+    justify-content: center;
+}
+.dflex1{
+    display: flex;
+}
+.textaboutmeh2{
+    font-size: 50px;
+    width: 92%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 0;
+    
+}
+.korobkatextaboutme{
+    color:beige;
+    padding: 0 100px;
+    text-align: center;
+    height: 700px;
+    width:90%;
+}
+
+.sectionh2{
+    background-color: #283149;
+    width: 100%;
+}
+.sectionh1{
+    background-color: #283149;
+}
+
+.hcenter{
+    align-items: center;
+}
+.wcenter{
+   justify-content: center; 
+}
+.dflex{
+    display: flex;
+    
+}
+.sectionh{
+    background-color: #283149;
+}
+.ghost{
+    position: absolute;
+    width: 10px;
+    left: 0px;
+}
+img{
+    width: 80%;
+    z-index: 6;
+}
+.krug{
+    z-index: 5	;
+    position: absolute;
+    top: 470px;
+    height: 1px;
+    width: 1px;
+    left: calc(50% + 400px );
+    background-color: white;
+    box-shadow: 0 0 200px 200px #ffffff;
+}
+.btn{
+    background-color: black;
+    color: pink;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(30,32,34);
+    background: radial-gradient(circle, rgba(30,32,34,1) 100%, rgba(238,174,202,1) 100%, rgba(238,174,202,1) 100%);
+    
+    color:#d8ba68
+}
+nav{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    background-color: #1E2022;
+}
+.link{
+    font-size: 30px;
+    margin: 0 0 0 50px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logo{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    border: 1px solid rgb(59, 59, 59);
+    padding: 10px 60px;
+}
+.right{
+    position: absolute;
+    right: 80px;
+}
+.btn_noviy{
+    text-decoration: none;
+    background-color: #1E2022;
+    color: #ffffff;
+    padding: 7px 30px;
+    font-size: 40px;
+    border-radius: 30px;
+    margin: 0 0 0 40px;
+    cursor: pointer;
+    height: 50px;
+    top:20px;
+    align-items: center;
+    justify-content: center;
+}
+.btn_noviy:hover{
+    background: rgb(30,32,34);
+    background: radial-gradient(circle, rgba(30,32,34,1) 100%, rgba(238,174,202,1) 100%, rgba(238,174,202,1) 100%);
+    color: #d8ba68;
+    box-shadow: 0 0 7px 7px rgb(15, 38, 91);
+    
+}
+.btn_noviyy{
+    text-decoration: none;
+    background-color: #1E2022;
+    color: #ffffff;
+    padding: 7px 30px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    width:10%;
+    margin:100px 0 0 650px;
+    align-items: center;
+    text-align: center;
+}
+.btn_noviyy:hover{
+    background: rgb(30,32,34);
+    background: radial-gradient(circle, rgba(30,32,34,1) 100%, rgba(238,174,202,1) 100%, rgba(238,174,202,1) 100%);
+    color: #d8ba68;
+    box-shadow: 0 0 7px 7px rgb(15, 38, 91);
+    
+}
+.btn_noviiy{
+    text-decoration: none;
+    background-color: #1E2022;
+    color: #ffffff;
+    padding: 7px 30px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    width:10%;
+    margin:100px 0 0 590px;
+    align-items: center;
+    text-align: center;
+}
+.btn_noviiy:hover{
+    background: rgb(30,32,34);
+    background: radial-gradient(circle, rgba(30,32,34,1) 100%, rgba(238,174,202,1) 100%, rgba(238,174,202,1) 100%);
+    color: #d8ba68;
+    box-shadow: 0 0 7px 7px rgb(15, 38, 91);
+    
+}
+#myblog{
+    padding: 150px 0;
+    background-color: #283149;
+    margin: 0px;
+
+}
+.card{
+    width: 1000px;
+    background-color: rgb(255, 255, 255);
+    padding: 50px ;
+    border-radius: 30px;
+    margin:30px;
+    color:black;
+}
+
+.w100{
+    width: 75%;
+}
+.cardbtn{
+    text-decoration: none;
+    width: 1000px;
+    display: block;
+    margin: 0 150px;
+    cursor: pointer;
+}
+.dflex{
+    display: flex;
+}
+.w80{
+    width: 80%;
+}
+.chiutnizhe{
+    margin-top: 450px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+}
+.imggr1{
+    width: 500px;
+    height: 500px;
+    margin: 40px;
+}
+.imggr1txt{
+    font-size: 50px;
+}
+#projects{
+    padding:400px 0;
+    background-color: #283149;
+    height: 1000px;
+
+}
+.imggr2{
+    height: 500px;
+    width:450px;
+    margin: 40px;
+
+}
+.imggr3{
+    height: 500px;
+    width:450px;
+    margin: 40px;
+
+}
+.projectsh1{
+    text-align: center;
+    font-size:80px;
+    color: black;
+}
+.projectsh2{
+    font-size: 50px;
+    margin: 20px;
+    color:#ffffff;
+}
+.prya1{
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    color:#ffffff;
+    
+}
+.myblogh1{
+    color:black;
+    margin : 0 0 0 450px;
+
+}
+#projects{
+    height:1460px;
+}
+#skills{
+    background-color: #283149;
+}
+.skillsh1{
+    font-size: 80px;
+    color:black;
+   margin: 0 0 0 630px;
+}
+.algh2{
+    font-size: 50px;
+    color: #ffffff; 
+    margin: 0 0 0 50px;
+}
+.krugg{
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin:0 0 0 50px;
+}
+.geoh2{
+        font-size: 50px;
+        color: #ffffff; 
+        margin: 20px 0 0 50px;
+}
+.kruggg{
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    background-color: black;
+    margin:10px 20px 10px 40px;
+}
+.kruggg1{
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    background-color: #ffffff;
+    margin:10px 20px 10px 40px;
+}
+.btn_noviyyy{
+    background-color: #000000;
+    color: #000000;
+    padding: 7px 30px;
+    font-size: 40px;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+.btn_noviyyy:hover{
+    background: rgb(30,32,34);
+    background: radial-gradient(circle, rgba(30,32,34,1) 100%, rgba(238,174,202,1) 100%, rgba(238,174,202,1) 100%);
+    color: #d8ba68;
+    box-shadow: 0 0 7px 7px rgb(15, 38, 91);
+    
+}
+.textaboutmeh3{
+    font-size: 50px;
+}
+.meimg{
+    height:100px;
+    width: 100px;
+}
